@@ -7,8 +7,18 @@
 # https://tavaresgarcia.github.io/
 
 
+# House cleaning
+rm(list = ls()) # clear Environment
+if (!is.null(dev.list())) dev.off() # clear Plots
+cat("\014") # clear Console
 
-# 1. The text file consumption.txt contains observations on the weekly family
+getwd()
+# You will need to set the folder containing consumption.txt as your working
+# directory.
+setwd("G:/My Drive/BEcon/tutor/ECON3350/01")
+
+
+### 1. The text file consumption.txt contains observations on the weekly family
 # consumption expenditure (CONS) and income (INC) for a sample of 10 families.
 
 # (a) Read the data into R.
@@ -42,10 +52,10 @@
 # (h) Delete everything.
 
 
-# 2. At the Famous Fulton Fish Market in New York city, sales of whiting (a type
-# of fish) vary from day to day. Over a period of several months, daily
+### 2. At the Famous Fulton Fish Market in New York city, sales of whiting (a
+# type of fish) vary from day to day. Over a period of several months, daily
 # quantities sold (in pounds) were observed. These data are in the file
-# fultonfish.dat. Description of the data is in the file fultonfish.def.
+# fultonfish.dat. Description of the data is in the file fultonfish.def. 
 # Describe the first four columns.
 
 # (a) Use R to open the data file and name the series in the first four columns
