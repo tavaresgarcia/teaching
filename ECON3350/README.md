@@ -5,4 +5,4 @@ The slides and code have been revised throuout a few semesters of use, but a few
 
 Past tutorial recordings available at [youtube.com/@uq_econometrics](https://www.youtube.com/@uq_econometrics).
 
-https://tavaresgarcia.github.io/
+[tavaresgarcia.github.io](https://tavaresgarcia.github.io/)
