@@ -32,6 +32,7 @@ cat("\014") # clear Console
 # Ex Mac: setwd("/Users/uqdkim7/Dropbox/Teaching/R tutorials/Tutorial02")
 
 # To use the following line: save this file in the same folder as the data files
+install.packages("rstudioapi")
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 # Load Earnings_and_Height.csv into a variable

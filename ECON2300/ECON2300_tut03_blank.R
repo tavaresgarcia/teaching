@@ -32,17 +32,17 @@ cat("\014") # clear Console
 # Ex Mac: setwd("/Users/uqdkim7/Dropbox/Teaching/R tutorials/Tutorial02")
 
 # To use the following line: save this file in the same folder as the data files
+install.packages("rstudioapi")
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
-
-# Load Earnings_and_Height.csv into a variable
-
-# attach the data to the R search path
 
 
 # E5.1 The file Earnings and Height.csv contains data on earnings, height, and
 # other characteristics of a random sample of U.S. workers. See Earnings and
 # Height Description.pdf for a detailed description of the data. Carry out the
 # following exercises.
+
+# Load Earnings_and_Height.csv into a variable
+EH <-
 
 # (a) Run a regression of earnings on height.
 # i. Is the estimated slope statistically significant?
