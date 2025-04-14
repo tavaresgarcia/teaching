@@ -1,4 +1,4 @@
-# Tutorial 9: Modelling Volatility - II
+# Tutorial 6: Modelling Volatility - II
 
 # Answers by Eric Eisenstat
 # https://sites.google.com/view/ericeisenstat
