@@ -148,7 +148,7 @@ summary(reg2)
 
 ## (f)
 ols.1stage = lm_robust(x2 ~ x1 + z1, se_type = "stata")
-linearHypothesis(ols.1stage, c("z1 = 0"))
+linearHypothesis(ols.1stage, c("z1 = 0"), test = c("F"))
 
 # Run a regression of X2 against (1, X1, Z1). Compute the F-statistic for the
 # coefficient on Z1 being 0. The F-statistic = 17.83 > 10 and has essentially 0
